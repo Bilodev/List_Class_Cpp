@@ -158,7 +158,11 @@ class List{
             {
                 std::cout << "[" << i << "]: "<< list[i] << std::endl;
             }
-        }     
+        }
+        int operator[](int index)
+        {          
+            int a = get(index);
+        }
 };
 
 
